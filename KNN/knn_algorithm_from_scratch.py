@@ -10,7 +10,7 @@ def euclidean_distance(p, q):
     return np.sqrt(np.sum((np.array(p) - np.array(q)) ** 2))
 
 class KNearestNeighbours:
-    def __init__(self, k=3) -> None:
+    def __init__(self, k=3):
         self.k = k
         self.points = None
 
